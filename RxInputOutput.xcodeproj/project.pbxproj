@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		30FB00F0225DBC5700F5F837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB00EF225DBC5700F5F837 /* AppDelegate.swift */; };
-		30FB00F2225DBC5700F5F837 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB00F1225DBC5700F5F837 /* ViewController.swift */; };
 		30FB00F7225DBC5800F5F837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30FB00F6225DBC5800F5F837 /* Assets.xcassets */; };
 		30FB00FA225DBC5800F5F837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FB00F8225DBC5800F5F837 /* LaunchScreen.storyboard */; };
 		30FB0105225DBC5800F5F837 /* RxInputOutputTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB0104225DBC5800F5F837 /* RxInputOutputTests.swift */; };
@@ -30,7 +29,6 @@
 		0131F7FF774714806A55122D /* Pods-RxInputOutputTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxInputOutputTests.release.xcconfig"; path = "Target Support Files/Pods-RxInputOutputTests/Pods-RxInputOutputTests.release.xcconfig"; sourceTree = "<group>"; };
 		30FB00EC225DBC5700F5F837 /* RxInputOutput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxInputOutput.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FB00EF225DBC5700F5F837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30FB00F1225DBC5700F5F837 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30FB00F6225DBC5800F5F837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30FB00F9225DBC5800F5F837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30FB00FB225DBC5800F5F837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,10 +86,10 @@
 			isa = PBXGroup;
 			children = (
 				30FB00EF225DBC5700F5F837 /* AppDelegate.swift */,
-				30FB00F1225DBC5700F5F837 /* ViewController.swift */,
-				30FB00F6225DBC5800F5F837 /* Assets.xcassets */,
-				30FB00F8225DBC5800F5F837 /* LaunchScreen.storyboard */,
-				30FB00FB225DBC5800F5F837 /* Info.plist */,
+				30FB0112225DC05F00F5F837 /* Extensions */,
+				30FB0111225DC05900F5F837 /* Modules */,
+				30FB0110225DC05000F5F837 /* Services */,
+				30FB010F225DC04900F5F837 /* Resources */,
 			);
 			path = RxInputOutput;
 			sourceTree = "<group>";
@@ -103,6 +101,37 @@
 				30FB0106225DBC5800F5F837 /* Info.plist */,
 			);
 			path = RxInputOutputTests;
+			sourceTree = "<group>";
+		};
+		30FB010F225DC04900F5F837 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30FB00F6225DBC5800F5F837 /* Assets.xcassets */,
+				30FB00F8225DBC5800F5F837 /* LaunchScreen.storyboard */,
+				30FB00FB225DBC5800F5F837 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		30FB0110225DC05000F5F837 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		30FB0111225DC05900F5F837 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		30FB0112225DC05F00F5F837 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		810ACA6B9C16C4A426201A2D /* Pods */ = {
@@ -326,7 +355,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30FB00F2225DBC5700F5F837 /* ViewController.swift in Sources */,
 				30FB00F0225DBC5700F5F837 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,7 +512,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DTB9AB3293;
-				INFOPLIST_FILE = RxInputOutput/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RxInputOutput/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -503,7 +531,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DTB9AB3293;
-				INFOPLIST_FILE = RxInputOutput/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RxInputOutput/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
