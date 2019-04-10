@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		302DB384225DE166003969FA /* RepositoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DB383225DE166003969FA /* RepositoriesViewModel.swift */; };
 		302DB386225DE1E5003969FA /* RepositoriesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DB385225DE1E5003969FA /* RepositoriesProvider.swift */; };
+		302DB388225DE702003969FA /* RepositoriesViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DB387225DE702003969FA /* RepositoriesViewModelTest.swift */; };
 		30FB00F0225DBC5700F5F837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB00EF225DBC5700F5F837 /* AppDelegate.swift */; };
 		30FB00F7225DBC5800F5F837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30FB00F6225DBC5800F5F837 /* Assets.xcassets */; };
 		30FB00FA225DBC5800F5F837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FB00F8225DBC5800F5F837 /* LaunchScreen.storyboard */; };
@@ -34,6 +35,7 @@
 		0131F7FF774714806A55122D /* Pods-RxInputOutputTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxInputOutputTests.release.xcconfig"; path = "Target Support Files/Pods-RxInputOutputTests/Pods-RxInputOutputTests.release.xcconfig"; sourceTree = "<group>"; };
 		302DB383225DE166003969FA /* RepositoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesViewModel.swift; sourceTree = "<group>"; };
 		302DB385225DE1E5003969FA /* RepositoriesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesProvider.swift; sourceTree = "<group>"; };
+		302DB387225DE702003969FA /* RepositoriesViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesViewModelTest.swift; sourceTree = "<group>"; };
 		30FB00EC225DBC5700F5F837 /* RxInputOutput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxInputOutput.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FB00EF225DBC5700F5F837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30FB00F6225DBC5800F5F837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		30FB0103225DBC5800F5F837 /* RxInputOutputTests */ = {
 			isa = PBXGroup;
 			children = (
+				302DB387225DE702003969FA /* RepositoriesViewModelTest.swift */,
 				30FB0104225DBC5800F5F837 /* RxInputOutputTests.swift */,
 				30FB0106225DBC5800F5F837 /* Info.plist */,
 			);
@@ -423,6 +426,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				302DB388225DE702003969FA /* RepositoriesViewModelTest.swift in Sources */,
 				30FB0105225DBC5800F5F837 /* RxInputOutputTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
